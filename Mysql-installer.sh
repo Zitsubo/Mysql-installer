@@ -5,7 +5,6 @@ read
 
 # Update packages and install necessary dependencies
 yes | pkg upgrade
-termux-setup-storage
 apt update && apt upgrade -y
 apt install git -y
 pkg install python -y
